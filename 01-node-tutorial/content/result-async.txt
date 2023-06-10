@@ -1,1 +1,1 @@
-Here is the result : Hello this is first text file, Hello this is second text file
+Here is the result : Hello there, you just opened the first text file from Content folder., Hello there, you just opened the second text file from Content folder.
