@@ -76,3 +76,9 @@ const server = http.createServer((req, res) => {
 
 server.listen(3000);
 console.log("The server is listening on port 3000.");
+console.log("This comment should restart the Program by Nodemon because this file is changed.");
+server.on('request', (req) => {
+  console.log("event received: ", req.method, req.url)
+  })
+
+console.log('Added text into prompter.js')
