@@ -1,0 +1,4 @@
+/node_modules
+.DS_Store
+/textfile.txt
+/../content/big.txt
