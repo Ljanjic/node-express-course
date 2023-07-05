@@ -1,0 +1,18 @@
+Quickly explain how middleware is used in an Express application.
+An Express application is in fact a serious of middleware function calls. Middleware is the code that runs between the HTTP request and response objects by accessing to those requests and help determine how server should respond (by ending that cycle or calling the next() middleware) .   
+
+What does CRUD stand for?
+Create
+Read
+Update
+Delete 
+are in fact the basic operations with data (from dataBase) using, in our case, mango Detabase and testing with the Postman.
+
+You are careful to store your sensitive information in a .env file.
+Yes, I stored my personal info there since should not be shared with anybody else, and not pushing that file to gitHub. 
+
+How do you get your app to access the information in the .env file?
+We will connect our application with installed package named "dotenv" listed as one of our dependencies inside of package.json file
+
+How do you protect the contents of the .env file so that it is not stored in your github repository?
+By selecting this file in .gitignore file, and that way every file linked into .gitignore file will not be send to Github, some because of space, or privacy
